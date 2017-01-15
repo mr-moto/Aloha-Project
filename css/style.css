@@ -23,7 +23,7 @@ Screen Sizes:
 
 
 
-/*Elements*/
+
 html {
     font-size: 14px; 
 }
@@ -38,7 +38,6 @@ body{
 h1 {
     display: none;
 }
-/*layout*/
 .clearfix:before,
 .clearfix:after {
    content: '';
@@ -84,7 +83,7 @@ h1 {
 .new-collection {
     color: white;
     text-transform: uppercase;
-    font-size: 1.65rem;
+    font-size: 1rem;
     font-family: 'ralewaymedium',sans-serif;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
@@ -95,7 +94,7 @@ h1 {
     color: white;
     font-family: 'playfair_displayregular', sans-serif;
     font-weight: normal;
-    font-size: 3.3rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     padding-bottom: 36.2%;
 }
@@ -110,7 +109,7 @@ h1 {
     margin-bottom: 12.3%;
 }
 .about-header {
-    font-size: 3.2rem;
+    font-size: 2.1rem;
     font-family: 'playfair_displayitalic', sans-serif;
     font-style: italic;
     padding-bottom: 4.7%;
@@ -122,7 +121,7 @@ h1 {
 }
 .about-p {
     font-family: 'ralewaylight', sans-serif;
-    font-size: 1.49rem;
+    font-size: 1rem;
     line-height: 2;
     padding: 0 3% 12.8% 3%;
 }
@@ -131,7 +130,7 @@ h1 {
 
 /*----------products----------*/
 .products-header {
-    font-size: 3.2rem;
+    font-size: 2.1rem;
     font-family: 'playfair_displayitalic', sans-serif;
     font-style: italic;
     padding-bottom: 10%;
@@ -145,7 +144,7 @@ h1 {
     padding-bottom: 2.7%;
 }
 .prod-type {
-    font-size: 1rem;
+    font-size: 0.66rem;
     color: #969696;
     font-family: 'ralewaymedium', sans-serif;
     text-transform: uppercase;
@@ -153,16 +152,16 @@ h1 {
 }
 .prod-name {
     font-family: 'playfair_displayregular', sans-serif;
-    font-size: 2rem;
+    font-size: 1.35rem;
     color: #e2574c;
     padding-bottom: 4.5%;
 }
 .price {
-    font-size: 1.35rem;
+    font-size: 0.9rem;
     color: #969696;
     font-family: 'ralewaymedium', sans-serif;
     font-weight: bold;
-    padding-bottom: 13.5%;
+    padding-bottom: 11%;
 }
 
 
@@ -177,7 +176,7 @@ h1 {
 }
 .updates-header{
     color: white;
-    font-size: 3.5rem;
+    font-size: 2.1rem;
     padding-top: 12%;
     padding-bottom: 4%;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
@@ -188,12 +187,12 @@ h1 {
     font-style: normal;
 }
 .updates-text {
-    font-family: 'ralewaylight', sans-serif;
+font-family: 'ralewaylight', sans-serif;
     color: white;
-    font-size: 1.54rem;
+    font-size: 1rem;
     line-height: 2;
     font-weight: bold;
-    padding-bottom: 6.4%;
+    padding: 0 0.4% 6.4% 0.4%;
 }
 
 .email-form {
@@ -201,27 +200,27 @@ h1 {
     margin: 0 12% 0 6.7%;
     width: 73.5%;
     position: relative;
-    padding-bottom: 12.3%;
+    padding-bottom: 12%;
 }
 input[type="email"]{
     width: 71%;
     border: 0;
     border-radius: 45px;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-family: 'ralewaylight';
-    padding: 3.6% 39.8% 3.6% 7%;
+    padding: 3.9% 39.8% 3.9% 7%;
 }
 button[type="submit"]{
     background-color: #e2574c;
     color: white;
-    font-size: 1.35rem;
+    font-size: 0.9rem;
     font-family: 'ralewaymedium';
     border: 0;
     border-radius: 25px;
     cursor: pointer;
-    padding: 0.8rem 1.9rem;
+    padding: 3% 6.3%;
     position: absolute;
-    top: 3%;
+    top: 2.5%;
     right: -17%;
 }
 input:focus {
@@ -242,7 +241,7 @@ button:hover {
     line-height: 1.5;
     font-family: 'playfair_displayregular';
     padding-top: 12%;
-    font-size: 1.3rem;
+    font-size: 0.88rem;
 }
 .copyright {
     padding-bottom: 3%;
@@ -257,7 +256,7 @@ button:hover {
     color: #969696;
 }
 .social-media {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     padding-bottom: 14.4%;
 }
 i {
