@@ -141,23 +141,21 @@ h1 {
     font-style: normal;
 }
 .prod-img {
-    width: 71%;
-    padding-bottom: 2.5%;
-}
-.prod-list {
+    width: 70%;
+    padding-bottom: 2.7%;
 }
 .prod-type {
     font-size: 1rem;
     color: #969696;
     font-family: 'ralewaymedium', sans-serif;
     text-transform: uppercase;
-    padding-bottom: 4.5%;
+    padding-bottom: 4%;
 }
 h3 {
     font-family: 'playfair_displayregular', sans-serif;
     font-size: 2rem;
     color: #e2574c;
-    padding-bottom: 4.5%
+    padding-bottom: 4.5%;
 }
 .price {
     font-size: 1.35rem;
