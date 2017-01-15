@@ -193,7 +193,7 @@ h1 {
     font-size: 1.54rem;
     line-height: 2;
     font-weight: bold;
-    padding-bottom: 0.5%;
+    padding-bottom: 6.4%;
 }
 
 .email-form {
@@ -235,21 +235,20 @@ button:hover {
 /*----------footer----------*/
 .footer {
     background-color: #242424;
-    height: 45.6%;
     color: white;
 }
 .footer-text {
-    padding-bottom: 4rem;
+    padding-bottom: 7.5%;
     line-height: 1.5;
-    font-family: 'fairplay_displaybold';
-    padding-top: 5.1rem;
-    font-size: 1.5rem;
+    font-family: 'playfair_displayregular';
+    padding-top: 12%;
+    font-size: 1.3rem;
 }
 .copyright {
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 .contact {
-    padding-bottom: 2%;
+    padding-bottom: 3.5%;
 }
 .email {
     color: white;
@@ -258,9 +257,10 @@ button:hover {
     color: #969696;
 }
 .social-media {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding-bottom: 14.4%;
 }
 i {
-    padding: 0 1%;
+    padding: 0 1.4%;
 }
 
