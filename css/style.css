@@ -339,8 +339,9 @@ i:hover {
         width: 50%;
     }
     .prod-img {
-        width: 235px;
-        padding-bottom: 16px;
+        width: 70%;
+        padding: 0 15% 4.75%;
+        max-width: 308px;
     }
     .prod-type {
         font-size: 0.77rem;
@@ -373,10 +374,11 @@ i:hover {
         margin: 0 12% 0 16%;
     }
     input[type="email"] {
-        padding: 3.9% 11.8% 3.9% 7%;
+        padding: 17px 52px 17px 31px;
     }
     button[type="submit"] {
-        right: 6%;
+        right: 7%;
+        padding: 14px 27px;
     }
     /*----------Breakpoint footer----------*/
     .footer {
@@ -415,5 +417,79 @@ i:hover {
         padding-right: 1px;
         width: 33px;
     }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color:#b64036;
+    }
+
+
+    
 @media screen and (min-width: 1240px) {
+    /*----------breakpoint nav----------*/
+    .logo {
+        width: 165px;
+    }
+    .cart {
+        width: 65px;
+    }
+    /*----------breakpoint banner----------*/
+    .hero-banner {
+        background-size: cover, 252px auto, contain;
+        height: 549px;
+    }
+    .new-collection {
+        padding-top: 220px;
+        padding-bottom: 32px;
+    }
+    .ss-season {
+        font-size: 4rem;
+    }
+    /*----------about----------*/
+    }
+    .about-header {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .about-p {
+        width: 720px;
+        margin: 0 auto;
+    }
+    /*----------breakpoint products----------*/
+    .products {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+    .products ul li {
+        width: 25%;
+        
+    }
+    .prod-img {
+        width: 80%;
+        padding: 0;
+        max-width: none;
+    }
+    .updates-header {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .updates-text {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .email-form {
+        width: 45%;
+        margin: 0 12% 0 28%;
+    }
+    button[type="submit"] {
+        right: 8%;
+    }
+/*-----------breakpoint footer----------*/
+    .social-media {
+        margin-right: 80px;
+    }
+
 }
