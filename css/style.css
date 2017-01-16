@@ -265,13 +265,15 @@ button:hover {
     padding-bottom: 58px;
 }
 i {
+    display: block;
+    color: white;
     padding: 0 5.5px;
     cursor: pointer;
 }
 i:hover {
     color: #b64036;
 }
-.social-media-text {
+.icon-text {
     visibility: hidden;
     font-family: 'ralewaylight', sans-serif;
 }
@@ -398,10 +400,6 @@ i:hover {
     .contact {
         padding-bottom: 15px;
     }
-    .social-media-text {
-        visibility: visible;
-        float: right;
-    }
     .social-media {
         float: right;
         text-align: left;
@@ -424,9 +422,10 @@ i:hover {
     a:hover {
         color:#b64036;
     }
+    .icon-text {
+        visibility: visible;
+    }
 
-
-    
 @media screen and (min-width: 1240px) {
     /*----------breakpoint nav----------*/
     .logo {
@@ -491,5 +490,4 @@ i:hover {
     .social-media {
         margin-right: 80px;
     }
-
 }
