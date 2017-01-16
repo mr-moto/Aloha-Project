@@ -273,7 +273,7 @@ i {
 i:hover {
     color: #b64036;
 }
-.icon-text {
+.icon-text { /*text vertical instead of horizontal*/
     visibility: hidden;
     font-family: 'ralewaylight', sans-serif;
 }
@@ -447,7 +447,6 @@ i:hover {
         font-size: 4rem;
     }
     /*----------about----------*/
-    }
     .about-header {
         width: 720px;
         margin: 0 auto;
