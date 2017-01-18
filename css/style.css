@@ -22,8 +22,6 @@ Screen Sizes:
 */
 
 
-
-
 html {
     font-size: 14px; 
 }
@@ -52,9 +50,9 @@ h1 {
 
 /*----------nav-header----------*/
 .nav {
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding: 12px 0 10px;
     width: 100%;
+    max-height: 153px
 }
 .logo {
     float: left;
