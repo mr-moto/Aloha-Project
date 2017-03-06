@@ -12,12 +12,6 @@ body{
 h1 {
     display: none;
 }
-.clearfix:before,
-.clearfix:after {
-   content: '';
-   display: table;
-   clear: both;
-}
 
 
 
@@ -225,7 +219,7 @@ input[type="submit"]:hover {
 .footer-text {
     line-height: 1.5;
     font-family: 'playfair_displayregular', sans-serif;
-    font-size: 0.88rem;
+    font-size: 1rem;
     padding-bottom: 33px;
 }
 .copyright {
@@ -244,20 +238,23 @@ input[type="submit"]:hover {
     color: #969696;
 }
 .social-media {
-    font-size: 0.9rem;
     padding-bottom: 58px;
+}
+.social-list{
+    display: flex;
+    justify-content: center;
 }
 i {
     display: block;
     color: white;
-    padding: 0 5.5px;
+    padding: 0 1rem;
     cursor: pointer;
 }
 i:hover {
     color: #b64036;
 }
 .icon-text { /*text vertical instead of horizontal*/
-    visibility: hidden;
+    display: none;
     font-family: 'ralewaylight', sans-serif;
 }
 
