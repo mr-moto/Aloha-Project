@@ -155,11 +155,11 @@ h1 {
     background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.1) 100% ), url(../images/wave-bkgd.jpg) no-repeat center bottom;
     background-size: auto, 1260px auto;
     margin-bottom: 7px;
+    padding: 4rem 0;
 }
 .updates-header{
     color: white;
-    font-size: 2.1rem;
-    padding-top: 48px;
+    font-size: 2.4rem;
     padding-bottom: 16px;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     font-family: 'playfair_displayitalic', sans-serif;
@@ -171,44 +171,47 @@ h1 {
 .updates-text {
     font-family: 'ralewaylight', sans-serif;
     color: white;
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 2;
     padding: 0 1.5px 25.5px 1.5px;
 }
 
 .email-form {
-    display: block;
-    margin: 0 12% 0 6.7%;
-    width: 73.5%;
+    margin: 2rem auto 0;
     position: relative;
-    padding-bottom: 47px;
+    width: 90%;
+}
+input{
+    color: #2d2d2d;
+    font-family: 'Raleway Web', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 2;
 }
 input[type="email"]{
-    width: 71%;
-    border: 0;
-    border-radius: 45px;
-    font-size: 0.9rem;
-    font-family: 'ralewaylight';
-    padding: 3.9% 39.8% 3.9% 7%;
-}
-button[type="submit"]{
-    background-color: #e2574c;
-    color: white;
-    font-size: 0.9rem;
-    font-family: 'ralewaymedium';
+    padding: .5rem 1.75rem;
+    padding-right: 150px;
+    width: 50%;
     border: 0;
     border-radius: 25px;
+}
+input[type="submit"]{
+    border: 0;
+    border-radius: 25px;
+    background-color: #e2574c;
+    color: white;
     cursor: pointer;
-    padding: 3% 6.3%;
+    font-weight: bold;
+    padding: .25rem 1.5rem;
     position: absolute;
-    top: 2.5%;
-    right: -17%;
+    right: .5rem;
+    top: .25rem;
 }
 input:focus {
     outline:0;
     box-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
 }
-button:hover {
+input[type="submit"]:hover {
     background-color: #b64036;
 }
 
