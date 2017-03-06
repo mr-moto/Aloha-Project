@@ -188,6 +188,7 @@ input[type="email"]{
     width: 50%;
     border: 0;
     border-radius: 25px;
+    box-sizing: border-box;
 }
 input[type="submit"]{
     border: 0;
@@ -284,29 +285,27 @@ i:hover {
         background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),url(../images/banner-girl.png) no-repeat center 59px, url(../images/flower-bkgd.jpg) repeat-x center bottom;
         background-size: cover, 151px auto, cover;
         height: 399px;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         }
     .new-collection {
-        padding-top: 155px;
-        padding-bottom: 25px;
         font-size: 1.3rem;
     }
     .ss-season {
         font-size: 3rem;
-        padding-bottom: 152px;
     }
     /*----------Breakpoint about-----------*/
-    .about {
-        margin-bottom: 65px; 
-    }
     .about-header {
         font-size: 2.4rem;
         padding-bottom: 24px;
     }
+    .about-text{
+        padding: 0 2%;
+    }
     .about-p {
-        font-size: 1.2rem;    
+        font-size: 1.15rem;    
         line-height: 1.9;
-        padding: 0 12px 63px 12px;
     }
     /*----------Breakpoint products----------*/
     .products {
