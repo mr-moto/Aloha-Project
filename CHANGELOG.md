@@ -5,6 +5,7 @@
 * Fixed text and image sizing to better reflect demo site.
 * Fixed form input positions
 * Fixed mobile view social media icons
+* Replaced floats with flexbox
 
 ## 2017 - 01 - 14
 * Project due date
