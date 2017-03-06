@@ -82,10 +82,10 @@ h1 {
 /*----------about----------*/
 .about {
     border-bottom: 1px solid #d7d7d7;
-    margin-bottom: 50px;
+    margin: 4rem 0;;
 }
 .about-header {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     font-family: 'playfair_displayitalic', sans-serif;
     font-style: italic;
     padding-bottom: 18.5px;
@@ -97,7 +97,7 @@ h1 {
 }
 .about-p {
     font-family: 'ralewaylight', sans-serif;
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 2;
     padding: 0 12px 51px 12px;
 }
