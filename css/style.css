@@ -46,26 +46,30 @@ h1 {
 .banner {
     padding-bottom: 50px;
 }
+.bg-content{
+    width: 80%;
+}
 .hero-banner{
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),url(../images/banner-girl.png) no-repeat center 53px, url(../images/flower-bkgd.jpg) repeat-x center bottom;
-    background-size: cover, 133px auto, cover;
-    height: 350px;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url(../images/banner-girl.png) no-repeat center 60px, url(../images/flower-bkgd.jpg) repeat-x center top;
+    background-size: cover, 150px 369px, cover;
+    height: 400px;
 }
 .new-collection {
     color: white;
     font-family: 'ralewaymedium',sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     flex: 0 1 10%;
+    margin-bottom: 1.5rem;
 }
 .ss-season {
     color: white;
     font-family: 'playfair_displayregular', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: normal;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     flex: 0 1 8%;
