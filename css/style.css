@@ -196,7 +196,6 @@ input[type="submit"]{
     background-color: #e2574c;
     color: white;
     cursor: pointer;
-    font-weight: bold;
     padding: .25rem 1.5rem;
     position: absolute;
     right: .5rem;
@@ -302,6 +301,8 @@ i:hover {
     }
     .about-text{
         padding: 0 2%;
+        max-width: 720px;
+        margin: 0 auto;
     }
     .about-p {
         font-size: 1.15rem;    
@@ -324,9 +325,6 @@ i:hover {
         padding: 0 2rem;
         box-sizing: border-box;
     }
-    .prod-img {
-        width: 100%;
-    }
     .prod-type {
         font-size: 0.77rem;
         padding-bottom: 18px;
@@ -340,15 +338,18 @@ i:hover {
         padding-bottom: 58px;
     }
     /*----------Breakpoint upadtes----------*/
+    .text-container{
+        max-width: 720px;
+        margin: 0 auto;
+    }
     .updates-header {
         font-size: 2.4rem;
-        padding-top: 64px;
         padding-bottom: 23px;
     }
     .updates-text {
         font-size: 1.2rem;
         line-height: 1.9;
-        padding: 0 1.5px 32.5px 1.5px;
+        padding: 0;
     }
     .email-form{
         width: 67%;
@@ -358,16 +359,13 @@ i:hover {
         padding: 14px 27px;
     }
     /*----------Breakpoint footer----------*/
-    .footer {
-        height: 195px;
-        padding-top: 66px;
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2%;
     }
     .footer-text {
-        font-size: 1rem;
-        line-height: 1.6;
-        float: left;
         text-align: left;
-        padding-left: 13px
     }
     .copyright {
         padding-bottom: 13px;
@@ -375,20 +373,24 @@ i:hover {
     .contact {
         padding-bottom: 15px;
     }
-    .social-media {
-        float: right;
+    .social-list{
+        flex-direction: column;
+        padding-right: 2rem;
         text-align: left;
-        font-size: 1.05rem;
-        line-height: 1.9;
-        font-family: 'ralewaylight';
-        margin-right: 32px;
+        line-height: 2;
+    }
+    .social-media{
+        padding: 0;
+    }
+    .social-text{
+        display: flex;
+        flex-direction: column;
     }
     .icon-text {
         display: inline;
     }
     i {
-        padding-right: 1px;
-        width: 33px;
+        width: 1rem;
     }
     a {
         color: white;
