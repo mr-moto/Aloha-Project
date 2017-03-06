@@ -82,7 +82,7 @@ h1 {
 /*----------about----------*/
 .about {
     border-bottom: 1px solid #d7d7d7;
-    margin: 4rem 0;;
+    padding: 4rem 0;
 }
 .about-header {
     font-size: 2.4rem;
@@ -99,14 +99,20 @@ h1 {
     font-family: 'ralewaylight', sans-serif;
     font-size: 1.15rem;
     line-height: 2;
-    padding: 0 12px 51px 12px;
 }
 
 
 
 /*----------products----------*/
+.products{
+    margin: 4rem 0;
+}
+.prod-list li {
+    margin-bottom: 3rem;
+    text-align: center;
+}
 .products-header {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     font-family: 'playfair_displayitalic', sans-serif;
     font-style: italic;
     padding-bottom: 40px;
@@ -116,12 +122,11 @@ h1 {
     font-style: normal;
 }
 .prod-img {
-    width: 280px;
-    padding-bottom: 11px;
-    cursor: pointer;
+    height: auto;
+    max-width: 100%;
 }
 .prod-type {
-    font-size: 0.66rem;
+    font-size: 0.75rem;
     color: #969696;
     font-family: 'ralewaymedium', sans-serif;
     text-transform: uppercase;
@@ -129,7 +134,7 @@ h1 {
 }
 .prod-name {
     font-family: 'playfair_displayregular', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     color: #e2574c;
     padding-bottom: 18px;
     cursor: pointer;
@@ -138,7 +143,7 @@ h1 {
     font-size: 0.9rem;
     color: #969696;
     font-family: 'ralewaymedium', sans-serif;
-    padding-bottom: 44px;
+    margin-bottom: 1rem;
 }
 
 
