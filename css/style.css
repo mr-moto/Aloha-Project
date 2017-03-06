@@ -402,6 +402,7 @@ i:hover {
     .icon-text {
         visibility: visible;
     }
+}
 
 @media screen and (min-width: 1240px) {
     /*----------breakpoint nav----------*/
@@ -415,10 +416,6 @@ i:hover {
     .hero-banner {
         background-size: cover, 252px auto, contain;
         height: 549px;
-    }
-    .new-collection {
-        padding-top: 220px;
-        padding-bottom: 32px;
     }
     .ss-season {
         font-size: 4rem;
@@ -435,11 +432,10 @@ i:hover {
     /*----------breakpoint products----------*/
     .products {
         max-width: 1240px;
-        margin: 0 auto;
-        padding-bottom: 16px;
     }
     .products ul li {
         width: 25%;
+        margin-bottom: 0;
         
     }
     .prod-img {
@@ -455,15 +451,7 @@ i:hover {
         width: 720px;
         margin: 0 auto;
     }
-    .email-form {
-        width: 45%;
-        margin: 0 12% 0 28%;
-    }
     button[type="submit"] {
         right: 8%;
-    }
-/*-----------breakpoint footer----------*/
-    .social-media {
-        margin-right: 80px;
     }
 }
